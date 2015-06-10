@@ -8,7 +8,7 @@ def img(src):
     return '''<img src="''' + src + '''">'''
 
 
-def start_form(the_url="", form_type="POST"):
+def start_form(the_url="", form_type="GET"):
     return '<form action="' + the_url + '" method="' + form_type + '">'
 
 
